@@ -6,8 +6,8 @@ This repository builds a docker image for use with Red Hat OpenShift taking into
 +
 [source,bash]
 ----
-docker build . -t wkulhanek/grafana:latest
-docker push wkulhanek/grafana:latest
+docker build . -t schefferdesouza/grafana:latest
+docker push schefferdesouza/grafana:latest
 ----
 +
 The repository includes an OpenShift Template to run Grafana with persistent storage.
